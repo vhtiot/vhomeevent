@@ -1,0 +1,132 @@
+.provision{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.provision-main{
+    background-color: white;
+    width: 100%;
+    /*height: 200px;*/
+    border: 1px solid white;
+    box-shadow: 5px 2px 40px #888888;
+    /*margin-top: 100px;*/
+
+}
+.space-top{
+    height: 50px;
+    background-color: white;
+    color: #000000;
+    padding: 3px;
+    font-family: Montserrat;
+}
+.title-provision{
+    display: flex;
+    background-color: #ed1b2f;
+    height: 200px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.body-provision{
+    background-color: white;
+}
+.part1{
+    padding: 50px 80px;
+    font-family: Montserrat;
+}
+.heading1{
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    pading-top: 15px;
+}
+.heading2{
+    color: #000000;
+    font-size: 18px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.heading3{
+    color: #000000;
+    font-size: 15px;
+    padding-bottom: 15px;
+    /*padding-top: 10px;*/
+    font-weight: bold;
+}
+.content {
+    text-align: justify;
+    text-justify: inter-word;
+}
+.content-item{
+    padding-left: 30px;
+}
+
+
+@media only screen and (max-width: 800px){
+    .space-top{
+        height: 50px;
+        background-color: white;
+        color: #000000;
+        padding: 3px;
+        font-size: 13px;
+    }
+
+    .title-provision{
+        display: flex;
+        background-color: #ed1b2f;
+        height: 100px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-family: Montserrat;
+        font-weight: bold;
+        line-height: 1.3;
+    }
+    .part1{
+        padding: 15px 25px;
+        font-family: Montserrat;
+    }
+    .content {
+    text-align: justify;
+    text-justify: inter-word;
+    }
+    .content-item{
+        padding-left: 10px;
+    }
+    .heading1{
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        pading-top: 10px;
+    }
+    .heading2{
+        color: #000000;
+        font-size: 15px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    .heading3{
+        color: #000000;
+        font-size: 12px;
+        padding-bottom: 10px;
+        /*padding-top: 10px;*/
+        font-weight: bold;
+    }
+
+
+}

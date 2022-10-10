@@ -1,0 +1,156 @@
+@font-face {
+    font-family: montserrat-24;
+    src: url("../../fonts/webfonts/Montserrat-Medium.ttf") format("truetype");
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: montserrat-14;
+    src: url("../../fonts/webfonts/Montserrat-Medium.ttf") format("truetype");
+    font-size: 24px;
+}
+
+@font-face {
+    font-family: montserrat-12;
+    src: url("../../fonts/webfonts/Montserrat-Medium.ttf") format("truetype");
+    font-size: 12px;
+}
+
+
+/* Sidebar CSS */
+.sidebar{
+    background-color: #fff!important;
+}
+
+.sidebar .logo img[role=user]{
+    display: block;
+}
+.sidebar .logo img[role=admin]{
+    display: none;
+}
+
+/*Main menu sidebar*/
+.sidebar > .sidebar-wrapper > .nav > li.active > a {
+    background-color: #c1e0dc!important;
+    color: black;
+    box-shadow: -5px 0 0 #5cdab5;
+    font-family: montserrat-12, sans-serif;
+}
+
+
+/* Sub-menu sidebar*/
+.sidebar > .sidebar-wrapper > .nav > li.active  .nav > li.active > a {
+    background-color: #d8e6e5!important;
+    color: black;
+    font-family: montserrat-12, sans-serif;
+    font-weight: bolder;
+}
+
+.sidebar li.active > a i{
+    color: #111!important;
+}
+
+.sidebar .nav li > a, .sidebar .nav li > a p, .sidebar .nav li > a span {
+    color: #666;
+    font-family: montserrat-12, sans-serif;
+    font-weight: 700;
+}
+
+.sidebar .nav li.active > a, .sidebar .nav li.active a p, .sidebar .nav li.active > a span {
+    color: black!important;
+    font-family: montserrat-12, sans-serif;
+    font-weight: bolder;
+}
+
+.user-custom .photo, .user-custom .photo img{
+    border-radius: 50%!important;
+    margin: auto;
+    display: block;
+    max-width: 100px!important;
+    max-height: 100px!important;
+}
+
+.user-custom .photo img{
+    border: 2px solid #78c8bb;
+    margin-top: 10px;
+}
+
+.user-custom .user-info span{
+    color: black;
+    display: block;
+    text-align: center;
+    font-family: montserrat-12, sans-serif;
+}
+
+.sidebar-mini .user-custom .photo,.sidebar-mini .user-custom .photo img{
+    border-radius: 50%!important;
+    margin: auto;
+    display: block;
+    max-width: 40px!important;
+    max-height: 40px!important;
+}
+
+.sidebar-mini  .user-custom .photo img{
+    border: 2px solid #78c8bb;
+    margin-top: 10px;
+}
+
+.sidebar-mini  .user-custom .user-info span{
+    display: none;
+}
+
+.sidebar .logo{
+    margin: 25px;
+}
+
+.sidebar-mini .sidebar .logo{
+    margin: 10px;
+}
+
+/* Nav-bar CSS */
+.main-panel .navbar{
+    background-color: #70c5b7!important;
+}
+
+#minimizeSidebar i{
+    color: #70c5b7;
+    /*background-color: yellow;*/
+}
+
+.navbar .navbar-brand{
+    color: whitesmoke!important;
+    font-weight: bold;
+    font-family: montserrat-12, sans-serif;
+}
+
+.navbar .nav-link i{
+    color: whitesmoke;
+}
+
+pre {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+pre {outline: 1px solid #ccc; padding: 5px; margin: 5px; }
+.string { color: green; }
+.number { color: darkorange; }
+.boolean { color: blue; }
+.null { color: magenta; }
+.key { color: red; }
+
+/* Container for the text that expands on hover */
+.expanded-text {
+    width: 100%;
+}
+/* Longer name hidden by default  */
+span.longer-name{
+    display:none;
+}
+/* On hover, hide the short name */
+.expanded-text:hover span.short-name{
+    display:none;
+}
+/* On hover, display the longer name.  */
+.expanded-text:hover span.longer-name{
+    display:block;
+}
